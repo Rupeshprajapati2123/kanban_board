@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.App{
+background: #F4F5F8;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+height: 100vh;
+}
+.selector{
+    align-items: center;
+    
+    font-size: 14px;
+    font-family: Inter;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 6px;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    padding: 12px 36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100vw;
+    align-self: stretch; 
+    background: #FFF;
+box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.04);
+margin-bottom: 1.5rem;
+}
+.button{
+align-items: center;
+  background: #fff;
+  border: 1px solid #ababab;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  padding: 4px 6px;
+}
+.full{
+    display: flex;
+    margin-left: 1rem;
+}.select-flex{
+   margin-top: 2rem;
+    background-color: #F2F2F2;
+    padding: 0.75rem;
+    z-index: 1;
+    border: solid 1px #ababab;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+}
+.select-container{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 8px;
+}
+.select-label
+{
+    margin-top: 0.7rem;
+color: #777d87;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.group{
+    display: flex;
+    
+    margin-right: 1.1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    height: 1rem;
+    width: 1rem;
+}
